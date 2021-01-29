@@ -1,0 +1,55 @@
+/* band.css */
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    background-image: url("img/banjo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        background-image: url("img/banjo.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: cover;
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+    background: rgba(225,225,225,0.2);
+    color: white;
+    padding: 2rem;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+.card > img {
+    max-width: 100%;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
